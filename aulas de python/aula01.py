@@ -1,5 +1,6 @@
 '''logica de programaçao'''
 
+''''problema 1'''
 
 def media_alunos():
 
@@ -28,32 +29,31 @@ def media_alunos():
         print(f"{nome} sua media e {media} voce foi aprovado com destaque")
 
 
+'''chamar a funçao'''
 
 
+'''media_alunos()'''
+
+'''-------------------------------------------problema 2 ---------------------------------------------------------'''
+def ano():
+
+    ano = int(input("digite o ano exemplo 1900, 2000 e etc: "))
 
 
+    if ano % 400 == 0:
+        print(f"{ano} e bissexto")
 
+    elif ano % 4 == 0 and ano % 100 != 0:
+        print(f"{ano} bissexto")
 
+    elif ano % 100 == 0 and ano % 400 != 0:
+        print(f"{ano} bissexto")
 
+    else:
+        print("ano nao bissexto")
+        
 
+'''ano()'''
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-media_alunos()
-
-
+'''---------------------------------------------------problema 3---------------------------------------------'''
 
